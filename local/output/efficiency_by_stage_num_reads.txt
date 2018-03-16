@@ -1,0 +1,49 @@
+	label	num_reads	stage
+0	smn1_9nt, LID 298181	181229430	raw
+1	smn1_9nt, LID 298183	172859726	raw
+2	smn1_9nt, LID 298355	142472656	raw
+3	smn1_9nt, LID 298356	173459690	raw
+4	brca2_11nt, LID 296800	125579903	raw
+5	brca2_11nt, LID 296831	174865845	raw
+6	brca2_11nt, LID 296963	144020009	raw
+7	brca2_11nt, LID 297460 (2x)	166111829	raw
+8	ikbkap_9nt, LID 298849	106662670	raw
+9	ikbkap_9nt, LID 298850	127977629	raw
+10	ikbkap_9nt, LID 298871	138268713	raw
+11	ikbkap_9nt, LID 298872	132256288	raw
+12	brca2_9nt, LID 296799	150111828	raw
+13	brca2_9nt, LID 296830	177855159	raw
+14	brca2_9nt, LID 296962	148544327	raw
+15	brca2_9nt, LID 297460 (2x)	166111829	raw
+16	smn1_9nt, LID 298181	28655429	sorted
+17	smn1_9nt, LID 298183	25452220	sorted
+18	smn1_9nt, LID 298355	66168533	sorted
+19	smn1_9nt, LID 298356	88702706	sorted
+20	brca2_11nt, LID 296800	43426180	sorted
+21	brca2_11nt, LID 296831	61115177	sorted
+22	brca2_11nt, LID 296963	68364264	sorted
+23	brca2_11nt, LID 297460 (2x)	47034770	sorted
+24	ikbkap_9nt, LID 298849	62003735	sorted
+25	ikbkap_9nt, LID 298850	77104935	sorted
+26	ikbkap_9nt, LID 298871	71211350	sorted
+27	ikbkap_9nt, LID 298872	73101762	sorted
+28	brca2_9nt, LID 296799	73082680	sorted
+29	brca2_9nt, LID 296830	56296255	sorted
+30	brca2_9nt, LID 296962	66128801	sorted
+31	brca2_9nt, LID 297460 (2x)	15360424	sorted
+32	smn1_9nt, LID 298181	19271975	parsed
+33	smn1_9nt, LID 298183	23906354	parsed
+34	smn1_9nt, LID 298355	52287521	parsed
+35	smn1_9nt, LID 298356	56725277	parsed
+36	brca2_11nt, LID 296800	34232178	parsed
+37	brca2_11nt, LID 296831	53912400	parsed
+38	brca2_11nt, LID 296963	61073267	parsed
+39	brca2_11nt, LID 297460 (2x)	32488055	parsed
+40	ikbkap_9nt, LID 298849	53173877	parsed
+41	ikbkap_9nt, LID 298850	69917113	parsed
+42	ikbkap_9nt, LID 298871	63606335	parsed
+43	ikbkap_9nt, LID 298872	65535470	parsed
+44	brca2_9nt, LID 296799	61738865	parsed
+45	brca2_9nt, LID 296830	47981461	parsed
+46	brca2_9nt, LID 296962	59199360	parsed
+47	brca2_9nt, LID 297460 (2x)	13879396	parsed

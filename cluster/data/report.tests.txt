@@ -1,0 +1,6 @@
+Running test in sheet validate_filename.
+test_num: 0
+file_type: illumina_run
+file_name: data/illumina_runs/298181_S2_L002_R2_001.fastq.gz
+expected_abort: False
+expected_return_value: None
