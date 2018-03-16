@@ -11,7 +11,7 @@ $ python2 run_pipeline.py
 
 Note that this pipeline should be run under Python 2.7.11. 
 
-Code for the local component is in the local/ directory. Unlike the cluster pipeline, this code should be run using Python >=3.6.3. First, copy the results from the cluster/saved directory to the local/from_pipeline directory. Then do
+Code for the local component is in the local/ directory. Unlike the cluster pipeline, this code should be run using Python >=3.6.3. First, copy the results from the cluster/saved directory to the local/from_pipeline directory. Next, download the human genome (hg38.fa) from the UCSC genome browser and decompress it. Then do
 
 $ cd local
 $ python3 run_pipeline.py
