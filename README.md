@@ -1,6 +1,6 @@
-## Analysis code and summary data for:
+# Analysis code and summary data
 
-Mandy S. Wong, Justin B. Kinney\*, Adrian R. Krainer\* (2018) Quantitative activity provide and context dependence of all human 5' splice sites. Submitted. \*Equal contribution.
+### Mandy S. Wong, Justin B. Kinney\*, Adrian R. Krainer\* (2018) Quantitative activity provide and context dependence of all human 5' splice sites. Submitted. \*Equal contribution.
 
 The computational pipeline used in this study was split into two parts: a "cluster" component run on the Black N Blue High (BNB) Performance Compute Cluster at Cold Spring Harbor Laboratory (CSHL), and a "local" component suitable for execution on a standard laptop computer. 
 
