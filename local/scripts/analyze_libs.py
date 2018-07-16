@@ -59,12 +59,8 @@ for i, lib_file in enumerate(lib_files):
     # Groupby splice sites
     ss_df = bc_df.groupby('ss').sum()
 
-    if '9nt' in locus:
-        max_num_ss = 2 * (4 ** 7)
-    elif '11nt' in locus:
-        max_num_ss = 2 * (4 ** 9)
-    else:
-        assert False, 'Error! Cant determine ss length for locus %s' % locus
+    # SEt number of splice sites
+    max_num_ss = 2 * (4 ** 7)
 
     d = {'locus':locus, 'lib':lib}
     d['num_bc'] = len(bc_df)

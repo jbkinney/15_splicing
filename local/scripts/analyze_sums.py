@@ -16,7 +16,6 @@ sys.path.append('src')
 import utils
 
 # Define input and output files
-in_11nt_bc_lib_glob = 'from_pipeline/results.*_11nt_*.txt'
 in_9nt_bc_lib_glob = 'from_pipeline/results.*_9nt_*.txt'
 in_jct_glob = 'from_pipeline/counts.*jct*.txt'
 out_bc_sums_file = 'output/sums_bc.txt'
@@ -29,11 +28,8 @@ out_jct_sums_file = 'output/sums_jct.txt'
 print('Counting num reads in all bc and lib samples...')
 
 # Load read counts from all experiments (except junction experiments)
-counts_11nt_df = utils.get_ss_counts(in_11nt_bc_lib_glob,ss_length=11)
-sums_11nt = counts_11nt_df.sum(axis=0)
 counts_9nt_df = utils.get_ss_counts(in_9nt_bc_lib_glob,ss_length=9)
-sums_9nt = counts_9nt_df.sum(axis=0)
-all_sums  = pd.concat([sums_11nt, sums_9nt])
+all_sums = counts_9nt_df.sum(axis=0)
 
 # Sum counts
 experiments = utils.splice(all_sums.index,elements=[0,1,2,3],unique=True)

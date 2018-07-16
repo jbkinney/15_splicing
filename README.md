@@ -1,4 +1,4 @@
-Analysis code and summary data for:
+## Analysis code and summary data for:
 
 Mandy S. Wong, Justin B. Kinney\*, Adrian R. Krainer\* (2018) Quantitative activity provide and context dependence of all human 5' splice sites. Submitted. \*Equal contribution.
 
@@ -12,7 +12,7 @@ $ python2 run_pipeline.py
 
 Note that this pipeline should be run under Python 2.7.11. 
 
-Code for the local component is in the local/ directory. Unlike the cluster pipeline, this code should be run using Python >=3.6.3. First, copy the results from the cluster/saved directory to the local/from_pipeline directory. Next, download the human genome (hg38.fa) from the UCSC genome browser and decompress it. Then do
+Code for the local component is in the local/ directory. Unlike the cluster pipeline, this code should be run using Python >=3.6.3. First, copy the results from the cluster/saved directory to the local/from_pipeline directory. Next, download the human genome (both hg38.fa and hg19.fa) from the UCSC genome browser, decompress them, and place then in the data/ directory. Then do
 
 $ cd local
 

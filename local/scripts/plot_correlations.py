@@ -136,20 +136,12 @@ in_files_dict = {
     'rep_9nt': 'output/ratios_9nt_ss_rep.txt',
     'lib_9nt': 'output/ratios_9nt_ss_lib.txt',
     'locus_9nt': 'output/ratios_9nt_ss_locus.txt',
-    'rep_11nt': 'output/ratios_11nt_ss_rep.txt',
-    'lib_11nt': 'output/ratios_11nt_ss_lib.txt',
-    'rep_11to9nt': 'output/ratios_11nt_ss_rep_marg.txt',
-    'lib_11to9nt': 'output/ratios_11nt_ss_lib_marg.txt',
 }
 description_dict = {
     'all_9nt': 'all 9nt replicates',
     'rep_9nt': 'selected 9nt replicates',
     'lib_9nt': '9nt libraries',
     'locus_9nt': '9nt loci',
-    'rep_11nt': '11nt replicates',
-    'lib_11nt': '11nt libraries',
-    'rep_11to9nt': '11nt replicates (mapped to 9nt)',
-    'lib_11to9nt': '11nt libraries (mapped to 9nt)',
 }
 
 # Set style

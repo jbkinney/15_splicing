@@ -28,10 +28,6 @@ def seq_to_mat(seq):
 in_files_dict = {
     'lib_9nt': 'output/ratios_9nt_ss_lib.txt',
     'locus_9nt': 'output/ratios_9nt_ss_locus.txt',
-    'lib_11nt': 'output/ratios_11nt_ss_lib.txt',
-    'locus_11nt': 'output/ratios_11nt_ss_locus.txt',
-    'lib_11to9nt': 'output/ratios_11nt_ss_lib_marg.txt',
-    'locus_11to9nt': 'output/ratios_11nt_ss_locus_marg.txt'
 }
 in_human_file = 'data/human_splice_sites.xlsx'
 
@@ -101,10 +97,6 @@ for name, in_file in in_files_dict.items():
             assert cons_seq in tmp_df.index
             cons_seq_val = tmp_df.loc[cons_seq, col]
 
-        elif site_length == 11:
-            indices = [str(seq[:9]) == cons_seq for seq in tmp_df.index]
-            cons_seq_val = tmp_df.loc[indices, :].median()[0]
-
         else:
             raise Exception
 
@@ -154,12 +146,6 @@ plots_dict = {
         ('human', 'GU', 'Human, GU only'),
         ('human', 'GC', 'Human, GC only')
     ]
-    #     'plot5_brca2_11nt_libs':[
-    #         ('locus_11nt','brca2_11nt'),
-    #         ('lib_11nt','brca2_11nt_lib1'),
-    #         ('lib_11nt','brca2_11nt_lib2'),
-    #         ('lib_11nt','brca2_11nt_lib3'),
-    #     ],
 }
 
 titles = list(plots_dict.keys())

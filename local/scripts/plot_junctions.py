@@ -63,13 +63,10 @@ def plot_junction_data(subplot_loc_dict, subplot_dims, \
     plt.savefig(file_name)
     print('Plot saved to %s.'%file_name)
 
-# Plot results for brca2, both 11nt and 9nt
+# Plot results for brca2
 subplot_loc_dict = {
 'brca2_9nt_lib1_rep1':1,
 'brca2_9nt_lib2_rep1':2,
-'brca2_11nt_lib1_rep1':4,
-'brca2_11nt_lib2_rep1':5,
-'brca2_11nt_lib3_rep1':6
 }
 plot_junction_data(subplot_loc_dict, 
     subplot_dims=(2,3), 
